@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      // Bug happen with DOM
+      "DOM"
+    ],
+    "paths": {
+      "#lib": ["${configDir}/src/lib.ts"]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "references": []
+}
