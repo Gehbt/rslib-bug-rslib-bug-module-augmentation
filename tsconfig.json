@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": [
       "ESNext",
-      // Bug happen with DOM
+      // when has DOM, the generated dts is broken.
       "DOM"
     ],
     "paths": {
